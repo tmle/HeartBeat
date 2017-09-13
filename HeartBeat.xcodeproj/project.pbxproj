@@ -7,15 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3222C6891F05F02A006101F0 /* HeartBeatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3222C6881F05F02A006101F0 /* HeartBeatUITests.m */; };
+		322FCA041EF6FA8E009FB193 /* AAStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FCA031EF6FA8E009FB193 /* AAStack.m */; };
+		322FCA071EF7140D009FB193 /* AAQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 322FCA061EF7140D009FB193 /* AAQueue.m */; };
+		325404C21F03964D004B09D4 /* MatrixOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 325404C11F03964D004B09D4 /* MatrixOperation.m */; };
+		327112421F01C91300E0A786 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 327112411F01C91300E0A786 /* UIColor+CustomColor.m */; };
+		327428461F043EE400546EE2 /* HeartBeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327428451F043EE400546EE2 /* HeartBeatTests.m */; };
+		3274284E1F04743A00546EE2 /* SortAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3274284D1F04743900546EE2 /* SortAlgorithmTests.m */; };
+		32C386AB1EDD31CB0061F237 /* SortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C386AA1EDD31CB0061F237 /* SortAlgorithm.m */; };
 		32E681F91ED725AF0086302C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E681F81ED725AF0086302C /* main.m */; };
 		32E681FC1ED725AF0086302C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E681FB1ED725AF0086302C /* AppDelegate.m */; };
 		32E681FF1ED725AF0086302C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E681FE1ED725AF0086302C /* ViewController.m */; };
 		32E682021ED725B10086302C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E682001ED725B10086302C /* Main.storyboard */; };
 		32E682041ED725B20086302C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E682031ED725B20086302C /* Assets.xcassets */; };
 		32E682071ED725B20086302C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E682051ED725B20086302C /* LaunchScreen.storyboard */; };
+		32E682101ED72B6E0086302C /* MathOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E6820F1ED72B6E0086302C /* MathOperation.m */; };
+		32E682141ED737C60086302C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E682131ED737C60086302C /* Person.m */; };
+		32E682171ED7386F0086302C /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E682161ED7386F0086302C /* Patient.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3222C68B1F05F02A006101F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E681EC1ED725AC0086302C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E681F31ED725AD0086302C;
+			remoteInfo = HeartBeat;
+		};
+		327428481F043EE400546EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E681EC1ED725AC0086302C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E681F31ED725AD0086302C;
+			remoteInfo = HeartBeat;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3222C6861F05F02A006101F0 /* HeartBeatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartBeatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3222C6881F05F02A006101F0 /* HeartBeatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartBeatUITests.m; sourceTree = "<group>"; };
+		3222C68A1F05F02A006101F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322FCA021EF6FA8E009FB193 /* AAStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAStack.h; sourceTree = "<group>"; };
+		322FCA031EF6FA8E009FB193 /* AAStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStack.m; sourceTree = "<group>"; };
+		322FCA051EF7140D009FB193 /* AAQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAQueue.h; sourceTree = "<group>"; };
+		322FCA061EF7140D009FB193 /* AAQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAQueue.m; sourceTree = "<group>"; };
+		325404C01F03964D004B09D4 /* MatrixOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixOperation.h; sourceTree = "<group>"; };
+		325404C11F03964D004B09D4 /* MatrixOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixOperation.m; sourceTree = "<group>"; };
+		327112401F01C91300E0A786 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		327112411F01C91300E0A786 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		327428431F043EE200546EE2 /* HeartBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		327428451F043EE400546EE2 /* HeartBeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartBeatTests.m; sourceTree = "<group>"; };
+		327428471F043EE400546EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3274284D1F04743900546EE2 /* SortAlgorithmTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortAlgorithmTests.m; sourceTree = "<group>"; };
+		32C386A91EDD31CB0061F237 /* SortAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortAlgorithm.h; sourceTree = "<group>"; };
+		32C386AA1EDD31CB0061F237 /* SortAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortAlgorithm.m; sourceTree = "<group>"; };
 		32E681F41ED725AE0086302C /* HeartBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E681F81ED725AF0086302C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32E681FA1ED725AF0086302C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,9 +71,29 @@
 		32E682031ED725B20086302C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E682061ED725B20086302C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E682081ED725B20086302C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E6820E1ED72B6E0086302C /* MathOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathOperation.h; sourceTree = "<group>"; };
+		32E6820F1ED72B6E0086302C /* MathOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathOperation.m; sourceTree = "<group>"; };
+		32E682121ED737C60086302C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		32E682131ED737C60086302C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		32E682151ED7386F0086302C /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		32E682161ED7386F0086302C /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3222C6831F05F02A006101F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327428401F043EE100546EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32E681F11ED725AD0086302C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +104,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3222C6871F05F02A006101F0 /* HeartBeatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3222C6881F05F02A006101F0 /* HeartBeatUITests.m */,
+				3222C68A1F05F02A006101F0 /* Info.plist */,
+			);
+			path = HeartBeatUITests;
+			sourceTree = "<group>";
+		};
+		327428441F043EE200546EE2 /* HeartBeatTests */ = {
+			isa = PBXGroup;
+			children = (
+				327428451F043EE400546EE2 /* HeartBeatTests.m */,
+				3274284D1F04743900546EE2 /* SortAlgorithmTests.m */,
+				327428471F043EE400546EE2 /* Info.plist */,
+			);
+			path = HeartBeatTests;
+			sourceTree = "<group>";
+		};
 		32E681EB1ED725AC0086302C = {
 			isa = PBXGroup;
 			children = (
 				32E681F61ED725AE0086302C /* HeartBeat */,
+				327428441F043EE200546EE2 /* HeartBeatTests */,
+				3222C6871F05F02A006101F0 /* HeartBeatUITests */,
 				32E681F51ED725AE0086302C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				32E681F41ED725AE0086302C /* HeartBeat.app */,
+				327428431F043EE200546EE2 /* HeartBeatTests.xctest */,
+				3222C6861F05F02A006101F0 /* HeartBeatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +146,7 @@
 		32E681F61ED725AE0086302C /* HeartBeat */ = {
 			isa = PBXGroup;
 			children = (
+				32E682111ED737970086302C /* Model */,
 				32E681FA1ED725AF0086302C /* AppDelegate.h */,
 				32E681FB1ED725AF0086302C /* AppDelegate.m */,
 				32E681FD1ED725AF0086302C /* ViewController.h */,
@@ -79,9 +168,68 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		32E682111ED737970086302C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32E682121ED737C60086302C /* Person.h */,
+				32E682131ED737C60086302C /* Person.m */,
+				32E682151ED7386F0086302C /* Patient.h */,
+				32E682161ED7386F0086302C /* Patient.m */,
+				32C386A91EDD31CB0061F237 /* SortAlgorithm.h */,
+				32C386AA1EDD31CB0061F237 /* SortAlgorithm.m */,
+				322FCA021EF6FA8E009FB193 /* AAStack.h */,
+				322FCA031EF6FA8E009FB193 /* AAStack.m */,
+				322FCA051EF7140D009FB193 /* AAQueue.h */,
+				322FCA061EF7140D009FB193 /* AAQueue.m */,
+				327112401F01C91300E0A786 /* UIColor+CustomColor.h */,
+				327112411F01C91300E0A786 /* UIColor+CustomColor.m */,
+				325404C01F03964D004B09D4 /* MatrixOperation.h */,
+				325404C11F03964D004B09D4 /* MatrixOperation.m */,
+				32E6820E1ED72B6E0086302C /* MathOperation.h */,
+				32E6820F1ED72B6E0086302C /* MathOperation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3222C6851F05F02A006101F0 /* HeartBeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3222C68F1F05F02B006101F0 /* Build configuration list for PBXNativeTarget "HeartBeatUITests" */;
+			buildPhases = (
+				3222C6821F05F02A006101F0 /* Sources */,
+				3222C6831F05F02A006101F0 /* Frameworks */,
+				3222C6841F05F02A006101F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3222C68C1F05F02A006101F0 /* PBXTargetDependency */,
+			);
+			name = HeartBeatUITests;
+			productName = HeartBeatUITests;
+			productReference = 3222C6861F05F02A006101F0 /* HeartBeatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		327428421F043EE100546EE2 /* HeartBeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3274284C1F043EE600546EE2 /* Build configuration list for PBXNativeTarget "HeartBeatTests" */;
+			buildPhases = (
+				3274283F1F043EE100546EE2 /* Sources */,
+				327428401F043EE100546EE2 /* Frameworks */,
+				327428411F043EE100546EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				327428491F043EE400546EE2 /* PBXTargetDependency */,
+			);
+			name = HeartBeatTests;
+			productName = HeartBeatTests;
+			productReference = 327428431F043EE200546EE2 /* HeartBeatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		32E681F31ED725AD0086302C /* HeartBeat */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E6820B1ED725B20086302C /* Build configuration list for PBXNativeTarget "HeartBeat" */;
@@ -108,6 +256,18 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Lac Viet Inc.";
 				TargetAttributes = {
+					3222C6851F05F02A006101F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KD2N297A7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32E681F31ED725AD0086302C;
+					};
+					327428421F043EE100546EE2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8KD2N297A7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32E681F31ED725AD0086302C;
+					};
 					32E681F31ED725AD0086302C = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 8KD2N297A7;
@@ -129,11 +289,27 @@
 			projectRoot = "";
 			targets = (
 				32E681F31ED725AD0086302C /* HeartBeat */,
+				327428421F043EE100546EE2 /* HeartBeatTests */,
+				3222C6851F05F02A006101F0 /* HeartBeatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3222C6841F05F02A006101F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327428411F043EE100546EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32E681F21ED725AD0086302C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,17 +323,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3222C6821F05F02A006101F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3222C6891F05F02A006101F0 /* HeartBeatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3274283F1F043EE100546EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327428461F043EE400546EE2 /* HeartBeatTests.m in Sources */,
+				3274284E1F04743A00546EE2 /* SortAlgorithmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32E681F01ED725AD0086302C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325404C21F03964D004B09D4 /* MatrixOperation.m in Sources */,
+				327112421F01C91300E0A786 /* UIColor+CustomColor.m in Sources */,
 				32E681FF1ED725AF0086302C /* ViewController.m in Sources */,
 				32E681FC1ED725AF0086302C /* AppDelegate.m in Sources */,
+				32E682141ED737C60086302C /* Person.m in Sources */,
+				32C386AB1EDD31CB0061F237 /* SortAlgorithm.m in Sources */,
+				322FCA041EF6FA8E009FB193 /* AAStack.m in Sources */,
+				32E682171ED7386F0086302C /* Patient.m in Sources */,
 				32E681F91ED725AF0086302C /* main.m in Sources */,
+				322FCA071EF7140D009FB193 /* AAQueue.m in Sources */,
+				32E682101ED72B6E0086302C /* MathOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3222C68C1F05F02A006101F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E681F31ED725AD0086302C /* HeartBeat */;
+			targetProxy = 3222C68B1F05F02A006101F0 /* PBXContainerItemProxy */;
+		};
+		327428491F043EE400546EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E681F31ED725AD0086302C /* HeartBeat */;
+			targetProxy = 327428481F043EE400546EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		32E682001ED725B10086302C /* Main.storyboard */ = {
@@ -179,6 +393,60 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3222C68D1F05F02A006101F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = HeartBeatUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.HeartBeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartBeat;
+			};
+			name = Debug;
+		};
+		3222C68E1F05F02A006101F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = HeartBeatUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.HeartBeatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartBeat;
+			};
+			name = Release;
+		};
+		3274284A1F043EE400546EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = HeartBeatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.HeartBeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBeat.app/HeartBeat";
+			};
+			name = Debug;
+		};
+		3274284B1F043EE400546EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KD2N297A7;
+				INFOPLIST_FILE = HeartBeatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.HeartBeatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBeat.app/HeartBeat";
+			};
+			name = Release;
+		};
 		32E682091ED725B20086302C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -220,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -275,6 +543,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8KD2N297A7;
 				INFOPLIST_FILE = HeartBeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.HeartBeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8KD2N297A7;
 				INFOPLIST_FILE = HeartBeat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thinhmle.HeartBeat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +566,23 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3222C68F1F05F02B006101F0 /* Build configuration list for PBXNativeTarget "HeartBeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3222C68D1F05F02A006101F0 /* Debug */,
+				3222C68E1F05F02A006101F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3274284C1F043EE600546EE2 /* Build configuration list for PBXNativeTarget "HeartBeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3274284A1F043EE400546EE2 /* Debug */,
+				3274284B1F043EE400546EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		32E681EF1ED725AC0086302C /* Build configuration list for PBXProject "HeartBeat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -312,6 +599,7 @@
 				32E6820D1ED725B20086302C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
